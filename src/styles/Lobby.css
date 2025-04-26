@@ -1,0 +1,17 @@
+.host-lobby, .player-lobby {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
