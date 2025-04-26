@@ -1,12 +1,12 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# Figma UI Architecture for "Market Minds" Game
+# Figma UI Architecture for "Bold Move" Game
 
 ---
 
 ## Introduction
 
-This document outlines the Figma-based UI architecture for the "Market Minds" game. It provides a detailed breakdown of the core screen taxonomy, flow design, and technical implementation strategies. The goal is to create an engaging and intuitive user experience that balances financial seriousness with gamified elements.
+This document outlines the Figma-based UI architecture for the "Bold Move" game. It provides a detailed breakdown of the core screen taxonomy, flow design, and technical implementation strategies. The goal is to create an engaging and intuitive user experience that balances financial seriousness with gamified elements.
 
 ---
 

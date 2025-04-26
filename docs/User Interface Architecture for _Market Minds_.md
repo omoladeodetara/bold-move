@@ -4,7 +4,7 @@
 
 ---
 
-# User Interface Architecture for "Market Minds"
+# User Interface Architecture for "Bold Move"
 
 ## Core UI Requirements \& Flow Analysis
 

@@ -4,7 +4,7 @@ const db = require('../models/db');
 async function createGame(hostId, rounds, scoringRules) {
     const gameId = `game-${uuidv4()}`;
     const inviteCode = Math.random().toString(36).substring(2, 8).toUpperCase();
-    const websocketUrl = `wss://api.marketminds.live/events/${gameId}`;
+    const websocketUrl = `wss://api.boldmove.live/events/${gameId}`;
 
     await db.query('INSERT INTO games (id, host_id, rounds, scoring_rules) VALUES ($1, $2, $3, $4)', [
         gameId, hostId, rounds, scoringRules

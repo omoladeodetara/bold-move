@@ -1,0 +1,9 @@
+# Copilot Configuration File
+
+# Rules:
+- Always update the tree structure in the README.md file if it changes.
+- Always suggest Windows commands instead of Linux commands.
+
+# Preferences:
+- Prioritize Windows-specific solutions.
+- Ensure tree structure updates are consistent with the workspace.
