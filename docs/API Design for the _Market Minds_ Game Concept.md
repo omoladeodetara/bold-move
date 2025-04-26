@@ -4,11 +4,11 @@
 
 ---
 
-# API Design for the "Market Minds" Game Concept
+# API Design for the "Bold Move" Game Concept
 
 ## Executive Summary
 
-The "Market Minds" game presents a unique blend of financial prediction, psychological strategy, and real-time multiplayer interaction. Designing its API requires balancing stateless REST principles with real-time event-driven communication to support features like host-controlled rounds, dynamic scoring algorithms, and player reactions. This report outlines a comprehensive API architecture informed by industry standards for turn-based games[^2][^5][^10], real-time data integration[^7][^11], and scalable backend design[^4][^15]. Key considerations include game state management, host/player role separation, integration with financial APIs, and scoring rule configurability.
+The "Bold Move" game presents a unique blend of financial prediction, psychological strategy, and real-time multiplayer interaction. Designing its API requires balancing stateless REST principles with real-time event-driven communication to support features like host-controlled rounds, dynamic scoring algorithms, and player reactions. This report outlines a comprehensive API architecture informed by industry standards for turn-based games[^2][^5][^10], real-time data integration[^7][^11], and scalable backend design[^4][^15]. Key considerations include game state management, host/player role separation, integration with financial APIs, and scoring rule configurability.
 
 ---
 
@@ -39,7 +39,7 @@ The "Market Minds" game presents a unique blend of financial prediction, psychol
 {  
   "gameId": "game-684",  
   "inviteCode": "BOLD2025",  
-  "websocketUrl": "wss://api.marketminds.live/events/game-684"  
+  "websocketUrl": "wss://api.boldmove.live/events/game-684"  
 }  
 ```
 
@@ -292,7 +292,7 @@ function detectAnomalies(guesses) {
 
 ## Conclusion \& Recommendations
 
-The proposed API architecture successfully addresses "Market Minds"' core requirements through:
+The proposed API architecture successfully addresses "Bold Move"'s core requirements through:
 
 1. **RESTful Game Management**: Aligns with best practices from turn-based game APIs[^5][^10]
 2. **Real-Time Interaction**: WebSocket integration for instant feedback[^15][^17]

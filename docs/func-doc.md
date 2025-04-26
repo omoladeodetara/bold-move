@@ -1,10 +1,9 @@
+# Market
 
-# bold-move
 
+## Figma UI Architecture for "Bold Move" Game
 
-## Figma UI Architecture for "Market Minds" Game
-
-This document outlines the Figma-based UI architecture for the "Market Minds" game. It provides a detailed breakdown of the core screen taxonomy, flow design, and technical implementation strategies. The goal is to create an engaging and intuitive user experience that balances financial seriousness with gamified elements.
+This document outlines the Figma-based UI architecture for the "Bold Move" game. It provides a detailed breakdown of the core screen taxonomy, flow design, and technical implementation strategies. The goal is to create an engaging and intuitive user experience that balances financial seriousness with gamified elements.
 
 ### Core Screen Taxonomy & Flow Design
 
@@ -26,7 +25,7 @@ This document outlines the Figma-based UI architecture for the "Market Minds" ga
 
 ---
 
-## User Interface Architecture for "Market Minds"
+## User Interface Architecture for "Bold Move"
 
 ### Core UI Requirements & Flow Analysis
 
@@ -47,7 +46,7 @@ This document outlines the Figma-based UI architecture for the "Market Minds" ga
 
 ---
 
-## API Design for the "Market Minds" Game Concept
+## API Design for the "Bold Move" Game Concept
 
 ### Core API Requirements Analysis
 
@@ -111,12 +110,12 @@ This architecture balances financial seriousness with gamified elements, leverag
 
 
 
-# Figma UI Architecture for "Market Minds" Game
+# Figma UI Architecture for "Bold Move" Game
 
 
 ## Introduction
 
-This document outlines the Figma-based UI architecture for the "Market Minds" game. It provides a detailed breakdown of the core screen taxonomy, flow design, and technical implementation strategies. The goal is to create an engaging and intuitive user experience that balances financial seriousness with gamified elements.
+This document outlines the Figma-based UI architecture for the "Bold Move" game. It provides a detailed breakdown of the core screen taxonomy, flow design, and technical implementation strategies. The goal is to create an engaging and intuitive user experience that balances financial seriousness with gamified elements.
 
 ---
 
@@ -283,7 +282,7 @@ Key screens should be prototyped with click-through flows demonstrating:
 # 
 
 
-# User Interface Architecture for "Market Minds"
+# User Interface Architecture for "Bold Move"
 
 ## Core UI Requirements \& Flow Analysis
 

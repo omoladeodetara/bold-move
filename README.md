@@ -1,7 +1,6 @@
-# Market Minds
+# Bold Move
 
-## Overview
-Market Minds is a multiplayer game that combines financial prediction, psychological strategy, and real-time interaction. Players compete to make accurate guesses about financial entities while engaging in strategic gameplay elements like bluffing and double-down wagers.
+Bold Move is a multiplayer game that combines financial prediction, psychological strategy, and real-time interaction. Players compete to make accurate guesses about financial entities while engaging in strategic gameplay elements like bluffing and double-down wagers.
 
 ## Features
 - **Pre-Game Lobby System**: Hosts can configure game settings, and players can join using a game code.
@@ -18,11 +17,11 @@ Market Minds is a multiplayer game that combines financial prediction, psycholog
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/market-minds.git
+   git clone https://github.com/your-username/Market.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd market-minds
+   cd Market
    ```
 3. Install dependencies:
    ```bash
@@ -32,7 +31,7 @@ Market Minds is a multiplayer game that combines financial prediction, psycholog
    - Update `models/db.js` with your PostgreSQL credentials.
    - Run the schema script:
      ```bash
-     psql -U your_username -d market_minds -f models/schema.sql
+     psql -U your_username -d bold-move -f models/schema.sql
      ```
 5. Start the server:
    ```bash
@@ -48,32 +47,36 @@ Market Minds is a multiplayer game that combines financial prediction, psycholog
 Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Project Structure
 ```
-api-doc.md
-func-doc.md
-README.md
-api/
-	games.js
-docs/
-	API Design for the _Market Minds_ Game Concept.md
-	Figma UI Architecture for _Market Minds_ Game.md
-	User Interface Architecture for _Market Minds_.md
-models/
-	db.js
-	schema.sql
-services/
-	gameService.js
-src/
-	App.js
-	components/
-		Lobby/
-			HostLobby.js
-			PlayerLobby.js
-	styles/
-		Lobby.css
-websockets/
-	scoreUpdates.js
+.
+├── LICENSE
+├── package.json
+├── README.md
+├── api
+│   └── games.js
+├── docs
+│   ├── API Design for the _Bold Move_ Game Concept.md
+│   ├── api-doc.md
+│   ├── Figma UI Architecture for _Bold Move_ Game.md
+│   ├── func-doc.md
+│   └── User Interface Architecture for _Bold Move_.md
+├── models
+│   ├── db.js
+│   └── schema.sql
+├── services
+│   └── gameService.js
+├── src
+│   ├── App.js
+│   ├── components
+│   │   └── Lobby
+│   │       ├── HostLobby.js
+│   │       └── PlayerLobby.js
+│   └── styles
+│       └── Lobby.css
+└── websockets
+    └── scoreUpdates.js
 ```

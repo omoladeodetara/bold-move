@@ -2,15 +2,15 @@
 
 # T   export this in markdown
 
-Absolutely! Here’s your API architecture for "Market Minds" exported in **Markdown** format, ready for documentation or sharing with your development team.
+Absolutely! Here’s your API architecture for "Bold Move" exported in **Markdown** format, ready for documentation or sharing with your development team.
 
 ---
 
-# Market Minds API Architecture
+# Bold Move API Architecture
 
 ## Executive Summary
 
-The "Market Minds" game concept introduces a complex interplay of real-time player interactions, dynamic data integration, and psychological gameplay elements. This document outlines a comprehensive API architecture designed to support the game's multifaceted requirements, balancing real-time responsiveness with robust data management.
+The "Bold Move" game concept introduces a complex interplay of real-time player interactions, dynamic data integration, and psychological gameplay elements. This document outlines a comprehensive API architecture designed to support the game's multifaceted requirements, balancing real-time responsiveness with robust data management.
 
 ---
 
@@ -346,13 +346,13 @@ def update_difficulty(player: Player) -> float:
 
 ## Conclusion \& Strategic Recommendations
 
-The proposed API architecture enables "Market Minds" to deliver its unique blend of financial speculation and psychological gameplay while maintaining technical scalability. Key implementation priorities should focus on:
+The proposed API architecture enables "Bold Move" to deliver its unique blend of financial speculation and psychological gameplay while maintaining technical scalability. Key implementation priorities should focus on:
 
 1. **Market Data Reliability**: Multi-source fallbacks with circuit breakers
 2. **Host Control Latency**: Optimizing WebSocket payloads using Protocol Buffers
 3. **Scoring Integrity**: Property-based tests for complex rule combinations
 4. **Player Retention**: Expanding the ML pipeline for personalized experiences
 
-Future iterations should consider integrating blockchain for verifiable player achievements and exploring AR capabilities. By adhering to this API design framework, "Market Minds" positions itself for technical excellence in the competitive social deduction game market.
+Future iterations should consider integrating blockchain for verifiable player achievements and exploring AR capabilities. By adhering to this API design framework, "Bold Move" positions itself for technical excellence in the competitive social deduction game market.
 
 ---
