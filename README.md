@@ -80,3 +80,48 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 └── websockets
     └── scoreUpdates.js
 ```
+
+## To-Do
+
+### General Improvements
+- [ ] **Enhance User Experience**:
+  - [ ] Add animations and transitions to improve UI interactivity.
+  - [ ] Implement accessibility features (e.g., keyboard navigation, screen reader support).
+- [ ] **Improve Game Analytics**:
+  - [ ] Provide more detailed insights into player performance.
+  - [ ] Add visualizations like charts for better data representation.
+- [ ] **Mobile Optimization**:
+  - [ ] Ensure the game is fully responsive and optimized for mobile devices.
+- [ ] **Localization**:
+  - [ ] Add support for multiple languages to reach a broader audience.
+- [ ] **AI Integration**:
+  - [ ] Use AI to provide personalized tips or feedback to players based on their gameplay.
+
+### Future Estimation Feature
+- [ ] **Feature Overview**:
+  - [ ] Allow players to estimate future values (e.g., market caps, net worth) based on historical data and trends.
+  - [ ] Introduce a "Future Estimation Mode" where players can make predictions for a specific time horizon (e.g., 1 year, 5 years).
+- [ ] **Implementation Ideas**:
+  - [ ] **Historical Data Integration**:
+    - [ ] Use APIs (e.g., Yahoo Finance, Alpha Vantage) to fetch historical financial data.
+  - [ ] **Trend Analysis**:
+    - [ ] Implement algorithms like linear regression or time-series analysis (e.g., ARIMA) to project future values.
+  - [ ] **Interactive Graphs**:
+    - [ ] Add interactive charts where players can visualize trends and make informed estimates.
+  - [ ] **Scoring Mechanism**:
+    - [ ] Reward players based on the accuracy of their future estimates compared to actual outcomes.
+- [ ] **Gamification**:
+  - [ ] Introduce challenges or achievements for accurate long-term estimates.
+  - [ ] Add a leaderboard for "Future Estimation Experts."
+
+### Additional Ideas
+- [ ] **Custom Game Modes**:
+  - [ ] Allow hosts to create custom rules or scenarios for unique gameplay experiences.
+- [ ] **Social Features**:
+  - [ ] Add chat functionality or forums for players to discuss strategies.
+- [ ] **AI Opponents**:
+  - [ ] Introduce AI players for single-player or mixed multiplayer modes.
+- [ ] **Educational Mode**:
+  - [ ] Provide an educational mode where players can learn about financial concepts while playing.
+- [ ] **Blockchain Integration**:
+  - [ ] Use blockchain for secure transactions or to introduce NFTs as rewards for achievements.
