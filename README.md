@@ -84,7 +84,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ## To-Do
 
 ### General Improvements
-- [ ] **Enhance User Experience**:
+- [x] **Enhance User Experience**:
   - [ ] Add animations and transitions to improve UI interactivity.
   - [ ] Implement accessibility features (e.g., keyboard navigation, screen reader support).
 - [ ] **Improve Game Analytics**:
